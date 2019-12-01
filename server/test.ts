@@ -4,7 +4,6 @@ import demofile = require("demofile");
 
 fs.readFile("../demos/mirage.dem", (_err, buffer) => {
   const demoFile = new demofile.DemoFile();
-  const util = require('util');
 
   demoFile.gameEvents.on("player_death", e => {
     
@@ -19,6 +18,6 @@ fs.readFile("../demos/mirage.dem", (_err, buffer) => {
 
     console.log(`${victimID}, ${attackerID} , ${assisterID}`);
   });
-
+  
   demoFile.parse(buffer);
 });

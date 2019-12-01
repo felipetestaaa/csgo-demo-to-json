@@ -4,7 +4,6 @@ var fs = require("fs");
 var demofile = require("demofile");
 fs.readFile("../demos/mirage.dem", function (_err, buffer) {
     var demoFile = new demofile.DemoFile();
-    var util = require('util');
     demoFile.gameEvents.on("player_death", function (e) {
         var victim = demoFile.entities.getByUserId(e.userid);
         var attacker = demoFile.entities.getByUserId(e.attacker);
