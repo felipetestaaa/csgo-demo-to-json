@@ -1,4 +1,4 @@
-# csgo-demo-parsing
+# CS:GO Demo to JSON
 
 The project is still under development
 
