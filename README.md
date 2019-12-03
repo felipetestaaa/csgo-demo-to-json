@@ -1,14 +1,11 @@
 # csgo-demo-parsing
 
-(In construction!!!)
+The project is still under development
 
-This repository contains script for parsing CS:GO demo files and saving into a database.
-
+This tool aims to provide a way to converting CS:GO demos into a JSON format. It is based on the demo parser [Node.js library for parsing CS:GO demo files](https://github.com/saul/demofile).
+	
 Inspired on:
  - [Convert CS:GO demos to JSON using Golang](https://github.com/markus-wa/demoinfocs-golang)
- 
-Library from:
- - [Node.js library for parsing CS:GO demo files](https://github.com/saul/demofile)
 
 ### Useful links
 
